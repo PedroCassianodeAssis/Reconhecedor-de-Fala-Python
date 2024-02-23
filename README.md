@@ -5,7 +5,7 @@
 
 ## 📋 Índices 
 - <a href="#funcionalidades"> Funcionalidades </a>
-- <a href="#d#emonstracao"> Demonstração </a>
+- <a href="#demonstracao"> Demonstração </a>
 - <a href="#tecnologias"> Tecnologias Utilizadas </a>
 - <a href="#biblioteca"> Bibliotecas Python Utilizadas </a>
 - <a href="#instalando"> Instalando as bibliotecas necessárias </a>
@@ -36,7 +36,7 @@ Um software executado em um ambiente de terminal.
     pip install SpeechRecognition
 ```
 
-## 📌 Utilidades do Programa: <a id="ultilidades"></a>
+## 📌 Utilidades do Programa: <a id="utilidades"></a>
 - ✅ O programa é capaz de ouvir o que você diz e também tem a capacidade de transcrever o que foi dito;
 
 - ✅ O sistema pode ser usado como um Assistente Virtual Pessoal;
