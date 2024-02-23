@@ -1,6 +1,7 @@
 # importando a bibliotecas
 import speech_recognition as spr 
 import pyautogui as pag
+import time
 
 rec = spr.Recognizer()
 
@@ -51,9 +52,9 @@ except Exception as v:
 
 print("")
 print("O que deseja fazer hoje?")
-print("- Abrir Excel;")
-print("- Abrir Google;")
-print("- Abrir Notcias")
+print("- Abrir Excel")
+print("- Abrir Google")
+print("- Abrir Notícias")
 
 with spr.Microphone() as mic:
     rec.adjust_for_ambient_noise(mic)
@@ -65,7 +66,7 @@ with spr.Microphone() as mic:
     print("Resposta do usuário: " +tarefa)
 
     
-    if tarefa == "abrir excel":
+if tarefa == "abrir excel" or tarefa == "Abrir Excel":
        
         pag.PAUSE = 1
 
@@ -74,6 +75,38 @@ with spr.Microphone() as mic:
         # digita o nome do programa
         pag.write("excel")
         # aperta enter
+        pag.press("enter")
+
+elif tarefa == "abrir google" or tarefa == "Abrir Google":
+       
+        pag.PAUSE = 1
+
+        # apertar a tecla do windows 
+        pag.press("win")
+        # digita o nome do programa
+        pag.write("edge")
+        # aperta enter
+        pag.press("enter")
+
+        time.sleep(5)
+        # entrar no google
+        pag.write("https://www.google.com.br/?hl=pt-BR")
+        pag.press("enter")
+
+elif tarefa == "abrir notícias" or tarefa == "Abrir Notícias":
+       
+        pag.PAUSE = 1
+
+        # apertar a tecla do windows 
+        pag.press("win")
+        # digita o nome do programa
+        pag.write("edge")
+        # aperta enter
+        pag.press("enter")
+
+        time.sleep(5)
+        # entrar no canal das notícias
+        pag.write("https://g1.globo.com")
         pag.press("enter")
 
     
