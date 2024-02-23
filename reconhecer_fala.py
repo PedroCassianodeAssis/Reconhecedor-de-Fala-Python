@@ -1,4 +1,6 @@
-import speech_recognition as spr   # importando a biblioteca
+# importando a bibliotecas
+import speech_recognition as spr 
+import pyautogui as pag
 
 rec = spr.Recognizer()
 
@@ -47,6 +49,35 @@ try:
 except Exception as v:
     print("Erro:", v)
 
+print("")
+print("O que deseja fazer hoje?")
+print("- Abrir Excel;")
+print("- Abrir Google;")
+print("- Abrir Notcias")
+
+with spr.Microphone() as mic:
+    rec.adjust_for_ambient_noise(mic)
+    print(".")
+    ad = rec.listen(mic)
+    tarefa = rec.recognize_google(ad, language="pt-BR")
+
+    print("")
+    print("Resposta do usuário: " +tarefa)
+
+    
+    if tarefa == "abrir excel":
+       
+        pag.PAUSE = 1
+
+        # apertar a tecla do windows 
+        pag.press("win")
+        # digita o nome do programa
+        pag.write("excel")
+        # aperta enter
+        pag.press("enter")
+
+    
+       
 
 
 

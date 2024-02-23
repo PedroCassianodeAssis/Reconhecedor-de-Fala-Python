@@ -1,5 +1,5 @@
 # Reconhecedor de Fala
- Um programa Python que entende e responde à fala humana. Ele pode cumprimentá-lo, perguntar seu nome e fazer algumas tarefas. Dependendo de como você responde, mensagens diferentes serão transmitidas. Ele pode ser usado como assistente de voz para ajudar a realizar tarefas simples, responder perguntas e até mesmo controlar coisas em sua casa usando comandos de voz. Simplificando, é um programa que interage com o computador conversando com ele.
+ Um programa Python que entende e responde à fala humana. Ele pode cumprimentá-lo, perguntar seu nome e fazer algumas tarefas com automação. Dependendo de como você responde, mensagens diferentes serão transmitidas. Ele pode ser usado como assistente de voz para ajudar a realizar tarefas simples, responder perguntas e até mesmo controlar coisas em sua casa usando comandos de voz. Simplificando, é um programa que interage com o computador conversando com ele.
 
 
 
@@ -15,7 +15,8 @@
 ## 💻 Funcionalidades: <a id="funcionalidades"></a>
 - ✅ Reconhecedor de Fala;
 - ✅ Conversão da fala para texto (ouvir e transcrever);
-- ✅ Linguagem do sistema = Português-Brasil.
+- ✅ Linguagem do sistema = Português-Brasil;
+- ✅ Automação de tarefas.
 
 
 ## 👨🏽‍💻 Demonstração: <a id="demonstracao"></a>
@@ -29,11 +30,16 @@ Um software executado em um ambiente de terminal.
 ## 📚 Bibliotecas Python Utilizadas: <a id="biblioteca"></a>
 - Speech Recognition (biblioteca de reconhecimento de fala em Python);
 
+- PyAutoGUI (é uma ferramenta útil para automatizar tarefas repetitivas, como clicar em botões, digitar texto ou arrastar e soltar elementos).
+
+
 ## ⚙️ Instalando as bibliotecas necessárias: <a id="instalando"></a>
 ```bash
     # instalando a biblioteca de reconhecimento de fala em Python
-
     pip install SpeechRecognition
+
+    # instalando a biblioteca de automatização em Python   
+    pip install pyautogui
 ```
 
 ## 📌 Utilidades do Programa: <a id="utilidades"></a>
@@ -43,5 +49,6 @@ Um software executado em um ambiente de terminal.
 
 - ✅ Pode ser integrado a jogos ou experiências de entretenimento interativo, onde os jogadores podem se comunicar com personagens ou realizar ações no jogo por meio de comandos de voz;
 
-- ✅ Integrado a aplicativos educacionais, o sistema pode fornecer suporte na aprendizagem de idiomas, pronúncia, entre outros, tornando o processo mais interativo.
+- ✅ Integrado a aplicativos educacionais, o sistema pode fornecer suporte na aprendizagem de idiomas, pronúncia, entre outros, tornando o processo mais interativo;
 
+- ✅ O sistema apresenta automações de tarefas, onde o sistema por si próprio realiza a tal atividade por comando de voz.
