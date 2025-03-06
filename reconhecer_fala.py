@@ -53,8 +53,9 @@ except Exception as v:
 print("")
 print("O que deseja fazer hoje?")
 print("- Abrir Excel")
-print("- Abrir Google")
+print("- Abrir Opera")
 print("- Abrir Notícias")
+print("- AI NEYMAR")
 
 with spr.Microphone() as mic:
     rec.adjust_for_ambient_noise(mic)
@@ -77,21 +78,19 @@ if tarefa == "abrir excel" or tarefa == "Abrir Excel":
         # aperta enter
         pag.press("enter")
 
-elif tarefa == "abrir google" or tarefa == "Abrir Google":
+elif tarefa == "abrir opera" or tarefa == "Abrir Opera":
        
         pag.PAUSE = 1
 
         # apertar a tecla do windows 
         pag.press("win")
         # digita o nome do programa
-        pag.write("edge")
+        pag.write("opera")
         # aperta enter
         pag.press("enter")
 
         time.sleep(5)
-        # entrar no google
-        pag.write("https://www.google.com.br/?hl=pt-BR")
-        pag.press("enter")
+
 
 elif tarefa == "abrir notícias" or tarefa == "Abrir Notícias":
        
@@ -109,9 +108,29 @@ elif tarefa == "abrir notícias" or tarefa == "Abrir Notícias":
         pag.write("https://g1.globo.com")
         pag.press("enter")
 
-    
-       
+elif tarefa == "ai neymar" or tarefa == "Ai Neymar" or "ai Neymar" or "ai Neimar" or "Ai neimar":
+     
+       pag.PAUSE = 1
 
+        # apertar a tecla do windows 
+       pag.press("win")
+        # digita o nome do programa
+       pag.write("opera")
+        # aperta enter
+       pag.press("enter")
+
+       time.sleep(7)
+
+       pag.write("https://youtu.be/0k4j7EnHBJU?si=Wvmw9DvX0sZIObaZ")
+       pag.press("enter")
+
+       time.sleep(4)
+       for i in range(1, 14):
+            pag.press("tab")
+       pag.press("enter")
+
+else:
+     print("Tarefa não encontrada!")
 
 
 
