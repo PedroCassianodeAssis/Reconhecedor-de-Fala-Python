@@ -1,5 +1,5 @@
 # Reconhecedor de Fala e Automatização de Tarefas
- Um programa Python que entende e responde à fala humana. Ele pode cumprimentá-lo, perguntar seu nome e fazer algumas tarefas com automação. Dependendo do comando dito pelo usuário, mensagens diferentes serão transmitidas, assim como suas ações. Ele pode ser usado como assistente de voz para ajudar a realizar tarefas simples, responder perguntas e até mesmo servir como um assistente pessoal para o seu computador. 
+ Um programa Python que entende e responde à fala humana. Ele pode cumprimentá-lo, perguntar seu nome e fazer algumas tarefas com automatização. Dependendo do comando dito pelo usuário, mensagens diferentes serão transmitidas, assim como suas ações. Ele pode ser usado como assistente de voz para ajudar a realizar tarefas simples, responder perguntas e até mesmo servir como um assistente pessoal para o seu computador. 
 
 
 ## 📋 Índices 
