@@ -12,11 +12,11 @@
 
 
 ## 💻 Funcionalidades: <a id="funcionalidades"></a>
-- ✅ Reconhecedor de Fala;
-- ✅ Conversão da fala para texto (ouvir e transcrever);
-- ✅ Linguagem do sistema = Português-Brasil;
-- ✅ Automatização de tarefas.
-
+- ✅ Generalização para matrizes de qualquer ordem (n x n) e módulos (26, 29 e 256);
+- ✅ Álgebra linear e aritmética modular em Python puro (sem bibliotecas externas);
+- ✅ Validação matemática e gerador automático de chaves invertíveis;
+- ✅ Padding automático e verificação de integridade da mensagem;
+- ✅ Geração automática de relatório técnico completo em .txt.
 
 ## 👨🏽‍💻 Demonstração: <a id="demonstracao"></a>
 ![Demostração](./assets/Codigo_Run.jpeg)
